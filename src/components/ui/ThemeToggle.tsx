@@ -12,7 +12,6 @@ import {
 import { Sun, Moon, Laptop } from "lucide-react"
 import { useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
-import { th } from "zod/v4/locales"
 
 const themes = [
 	{ value: "light", label: "Light", icon: Sun },
