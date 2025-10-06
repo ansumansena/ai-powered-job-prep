@@ -1,14 +1,14 @@
 "use client"
 
 import { useTheme } from "next-themes"
-import { Button } from "./button"
+import { Button } from "@/components/ui/button"
 import {
 	DropdownMenu,
 	DropdownMenuTrigger,
 	DropdownMenuContent,
 	DropdownMenuRadioGroup,
 	DropdownMenuRadioItem,
-} from "./dropdown-menu"    
+} from "@/components/ui/dropdown-menu"
 import { Sun, Moon, Laptop } from "lucide-react"
 import { useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
